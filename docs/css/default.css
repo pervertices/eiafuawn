@@ -1,0 +1,67 @@
+/*Semantics*/
+
+h1,h2,h3,h4,h5,h6,p,pre,code,blockquote,ul,ol,li,hr,body {
+    margin: 0;
+    padding: 0;
+    font-weight: normal;
+}
+body {
+    font-family:Helvetica, sans-serif;
+}
+a {
+    color:inherit;
+}
+img, iframe {
+    width:100%
+}
+
+header {
+    grid-area:header
+}
+section {
+    grid-area:section
+}
+nav {
+    grid-area:nav
+}
+aside {
+    grid-area:aside
+}
+main {
+    grid-area:main
+}
+footer {
+    grid-area:footer
+}
+* {
+    paint-order: stroke fill;
+}
+/* basic animations */
+
+@keyframes bg-scroll {
+    from {
+        background-position: 0 0;
+    }
+
+    to {
+        background-position: 100% 100%;
+    }
+}
+/*class*/
+.impact {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+.pixel {
+    image-rendering: pixelated;
+}
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+/*font*/
+
+@font-face {
+    font-family:Impact;
+    src: url();
+}

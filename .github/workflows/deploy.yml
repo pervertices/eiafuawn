@@ -20,8 +20,8 @@ jobs:
         uses: indiefellas/deploy2nekoweb@main
         with:
           nekoweb-api-key: ${{ secrets.NEKOWEB_API_KEY }}
-          nekoweb-domain: rei-yami.nekoweb.org
-          nekoweb-username: rei-yami
+          nekoweb-domain: eiafuawn.nekoweb.org
+          nekoweb-username: eiafuawn
           directory: docs
 
       - name: Deploy to Neocities
