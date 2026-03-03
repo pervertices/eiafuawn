@@ -4,7 +4,7 @@
     width: 100%;
     position: fixed;
     animation: bg-scroll 0.7s linear infinite;
-    opacity:0.5;
+    opacity: 0.5;
     pointer-events: none;
     background-color: #000000ac;
     z-index: 999;
@@ -17,68 +17,82 @@ body {
 }
 
 .container {
-    margin:0px;
-    color:white;
-    display:grid;
+    margin: 0px;
+    color: white;
+    display: grid;
     grid-template-areas:
-    "header"
-    "main"
-    "footer";
+        "header"
+        "main"
+        "footer";
     z-index: 1;
-    width:800px;
-    border:10px solid black;
+    width: 800px;
+    border: 10px solid black;
     grid-template-rows: 260px;
 }
 
 header {
     position: relative;
     background-image: url(../assets/pg/home/header.png);
-    background-size:100%;  
+    background-size: 100%;
     background-position: 0px -80px;
 }
+
 h1 {
     position: absolute;
     -webkit-text-stroke: 3px black;
     text-shadow: 0px 0px 5px black;
-    bottom:0px;
-    left:20px;
-    font-size:50px; 
-    cursor:help;
+    bottom: 0px;
+    left: 20px;
+    font-size: 50px;
+    cursor: help;
 }
 
 .marcos {
-    width:200px;
+    width: 200px;
     position: absolute;
-    bottom:-200px;
-    right:-120px;
-    z-index:9;
-    transition:1s
+    bottom: -200px;
+    right: -120px;
+    z-index: 9;
+    transition: 1s
 }
+
 .marcos:hover {
     animation: wobble 2.4s ease-in-out;
-    cursor:grab
+    cursor: grab
 }
+
 .marcos:active {
-    cursor:grabbing
+    cursor: grabbing
 }
 
 @keyframes wobble {
-    0%, 100% {
+
+    0%,
+    100% {
         transform: rotate(0deg);
         transform-origin: top;
     }
+
     10% {
         transform: rotate(-7deg);
     }
-    20%, 40%, 60% {
+
+    20%,
+    40%,
+    60% {
         transform: rotate(6deg);
     }
-    30%, 50%, 70% {
+
+    30%,
+    50%,
+    70% {
         transform: rotate(-3deg);
     }
+
     80% {
         transform: rotate(1deg);
     }
+
     90% {
         transform: rotate(0deg);
     }
@@ -87,39 +101,43 @@ h1 {
 main {
     display: grid;
     grid-template-areas: "nav nav"
-                         "aside section"
-                         "article article";
+        "aside section"
+        "article article";
     grid-template-rows: 70px;
     grid-template-columns: 250px 550px;
 }
 
 nav ul {
-    display:flex;
-    gap:5px
+    display: flex;
+    gap: 5px
 }
+
 nav ul li {
     flex-grow: 1;
     list-style-type: none;
     transform: scaleY(1.5);
 }
+
 nav ul li button {
     width: 100%;
-    font-size:25px;
+    font-size: 25px;
     cursor: pointer;
-    border:2px solid black;
-    color:white;
+    border: 2px solid black;
+    color: white;
     -webkit-text-stroke: 2px black;
-    background-image:linear-gradient(to top, #ffffff57, transparent);
-    transition:0.5s background-image, 0.5s color;
+    background-image: linear-gradient(to top, #ffffff57, transparent);
+    transition: 0.5s background-image, 0.5s color;
 }
+
 nav ul li button:hover {
-    color:yellow;
-    background-image:linear-gradient(to top, #ffffff87, transparent)
+    color: yellow;
+    background-image: linear-gradient(to top, #ffffff87, transparent)
 }
+
 .container:has(nav ul li:last-of-type button:hover) .marcos {
     opacity: 0.4;
     pointer-events: none;
-    right:-150px
+    right: -150px
 }
 
 nav ul li:nth-child(1) button {
@@ -143,22 +161,39 @@ nav ul li:nth-child(5) button {
 }
 
 .warn-div {
-    width:100%;
+    width: 100%;
     display: block;
 }
 
-
-
 aside .chet {
-    width:100%
+    width: 100%
+}
+#sponsor {
+    width:30%;
+    background-color: red;
+}
+#yap {
+    width:60%;
 }
 
-
+article img {
+    height:32px; 
+}
 
 footer {
     text-align: center;
     background-image: linear-gradient(to bottom, transparent, black);
 }
+
+.pkm,
+.gp {
+    width: inherit;
+}
+
+p {
+    padding: 0px 200px;
+}
+
 .pkm {
-    width:inherit;
+    height: 50px
 }

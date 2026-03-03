@@ -8,7 +8,8 @@
     <link rel="icon" href="assets/icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/home.css" />
     <title>FUNNY AWESOME LAND | Leave a like if you like Minecraft</title>
-    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js"></script>
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/08a9b18601.js" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
@@ -40,18 +41,68 @@
                 </ul>
             </nav>
             <aside>
-                <h2>Haha durr</h2>
                 <a href=""><img src="assets/pg/home/ok.png" class="pixel chet" /></a>
             </aside>
             <section>
+                <div class="flex">
+                    <div id="sponsor">
+                        <img src="">
+                        sponser 
+                    </div>
+                    <div id="yap">
+                            <div>Hello and welcome to funny awesome land. Try not to get lost. That's all.</div>
+                            <div>Check out these cool websits ok</div>
+                            <div class="btn-wall">
+                                <a href="https://38cautionzone.com/" target="_blank">
+                                    <img src="assets/pg/home/88x31-38Caution.gif" class="button">
+                                </a>
+                                <a href="https://dimwit.neocities.org/" target="_blank">
+                                    <img src="assets/pg/home/dim-btn.gif" class="button">
+                                </a>
+                                <a href="https://parkaction.neocities.org" target="_blank">
+                                    <img src="assets/pg/home/stillbutton.png" class="button">
+                                </a>                            
+                                <a href="https://jugproductions.neocities.org" target="_blank">
+                                    <img src="assets/pg/home/jugbutton.gif" class="button">
+                                </a>
+                                <a href="https://reigen.moe/" target="_blank">
+                                    <img src="assets/pg/home/reigenmoe-badge.gif" class="button">
+                                </a>
+                                <a href="https://piggie.party/" target="_blank">
+                                    <img src="assets/pg/home/piggyparty.png" class="button">
+                                </a>
+                                <div>and be sure to click on lotsa things cus there are many easter eggs!</div>
+                            </div>
+                    </div>
+                </div>
+                <br>
                 <img src="img-of-the.png" class="pixel" />
             </section>
-            <article>article article</article>
+            <article>
+                <div class="flex">
+                    <img src="assets/bumper-stickers/embrace_chaos.gif">
+                    <img src="assets/bumper-stickers/winning.gif">
+                    <img src="assets/bumper-stickers/overthink_who_will.png">
+                    <img src="assets/bumper-stickers/zombie_crossing.png">
+
+                </div>
+            </article>
         </main>
         <footer>
             <img src="assets/pg/home/warning-div.gif" class="warn-div" aria-hidden="true" alt=" " class="pixel" />
 
-            <p>&copy; rei yami 2023ish - til i get boooored</p>
+            <p>
+                <a href="../index.html">landing page</a>
+                <a href="../sitemap.html">sitemap</a>
+                <a href="rss.xml">rss</a><br>
+                <img src="../assets/bu/rei-yami.png" alt="88x31 Button. Click to download." class="button"><br>
+                <small>
+                    &copy; レイ・ヤミ 2025 — Till <a href="https://youtu.be/-WdYo3WlETY" class="help" target="_blank">I get
+                        booooooored <i class="fa-solid fa-up-right-from-square"></i></a>. |
+                    Last updated: <span id="updated"></span> |
+                    いつもお世話になっておりますが
+                </small>
+            </p>
             <p>
                 <img src="assets/pg/home/luxray.gif" class="pixel pkm" />
                 <img src="assets/pg/home/mienshao.gif" class="pixel pkm" />
@@ -60,9 +111,24 @@
                 <img src="assets/pg/home/dragonite.gif" class="pixel pkm" />
                 <img src="assets/pg/home/mandibuzz.gif" class="pixel pkm" />
             </p>
+            <p>
+                <img src="assets/pg/home/gaypage.gif" class="pixel gp" />
+            </p>
+
         </footer>
     </div>
-
+    <script>
+        window.addEventListener('load', function () {
+            const loadingScreen = document.getElementById('loading');
+            loadingScreen.classList.add('hide');
+            setTimeout(function () {
+                loadingScreen.style.display = 'none';
+            }, 600);
+        });
+    </script>
+    <script src="scripts/alt-text.js" defer></script>
+    <script src="scripts/tooltip.js" defer></script>
+    <script src="scripts/updateAPI.js" defer></script>
     <!--<div style="
         width: 40px;
         height: 40px;

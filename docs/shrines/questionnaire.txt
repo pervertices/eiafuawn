@@ -1,0 +1,299 @@
+<dt>1. How did Character A and Character B meet?</dt>
+<dd></dd>
+
+<dt>2. Who noticed the other first?</dt>
+<dd></dd>
+
+<dt>3. What was each character’s first impression of the other?</dt>
+<dd></dd>
+
+<dt>4. What drew them together initially?</dt>
+<dd></dd>
+
+<dt>5. What almost prevented them from meeting?</dt>
+<dd></dd>
+
+<dt>6. Did they get along immediately or clash at first?</dt>
+<dd></dd>
+
+<dt>7. Who developed feelings first?</dt>
+<dd></dd>
+
+<dt>8. What moment marked the shift from acquaintances to something more?</dt>
+<dd></dd>
+
+<dt>9. Who was more emotionally guarded in the beginning?</dt>
+<dd></dd>
+
+<dt>10. What outside forces influenced their early dynamic?</dt>
+<dd></dd>
+
+<dt>11. When did Character A realize their feelings were serious?</dt>
+<dd></dd>
+
+<dt>12. When did Character B realize their feelings were serious?</dt>
+<dd></dd>
+
+<dt>13. What does Character A love most about Character B?</dt>
+<dd></dd>
+
+<dt>14. What does Character B love most about Character A?</dt>
+<dd></dd>
+
+<dt>15. What insecurity does Character A have in the relationship?</dt>
+<dd></dd>
+
+<dt>16. What insecurity does Character B have in the relationship?</dt>
+<dd></dd>
+
+<dt>17. Who struggles more with vulnerability?</dt>
+<dd></dd>
+
+<dt>18. How do they comfort each other?</dt>
+<dd></dd>
+
+<dt>19. What fear do they both share about the relationship?</dt>
+<dd></dd>
+
+<dt>20. What makes them feel safest with each other?</dt>
+<dd></dd>
+
+<dt>21. What is their most common argument about?</dt>
+<dd></dd>
+
+<dt>22. Who apologizes first after a fight?</dt>
+<dd></dd>
+
+<dt>23. What is their worst fight about?</dt>
+<dd></dd>
+
+<dt>24. What secret could seriously damage their relationship?</dt>
+<dd></dd>
+
+<dt>25. How do they handle jealousy?</dt>
+<dd></dd>
+
+<dt>26. Who holds grudges longer?</dt>
+<dd></dd>
+
+<dt>27. What misunderstanding caused the most tension?</dt>
+<dd></dd>
+
+<dt>28. What flaw in Character A frustrates Character B?</dt>
+<dd></dd>
+
+<dt>29. What flaw in Character B frustrates Character A?</dt>
+<dd></dd>
+
+<dt>30. What external threat has tested them the most?</dt>
+<dd></dd>
+
+<dt>31. How do they act when they’re alone together?</dt>
+<dd></dd>
+
+<dt>32. How do they act in public?</dt>
+<dd></dd>
+
+<dt>33. Who is more physically affectionate?</dt>
+<dd></dd>
+
+<dt>34. Who initiates important conversations?</dt>
+<dd></dd>
+
+<dt>35. What is their favorite activity to do together?</dt>
+<dd></dd>
+
+<dt>36. Who is more organized?</dt>
+<dd></dd>
+
+<dt>37. Who is more impulsive?</dt>
+<dd></dd>
+
+<dt>38. What is their shared inside joke?</dt>
+<dd></dd>
+
+<dt>39. What habit of Character A does Character B secretly find endearing?</dt>
+<dd></dd>
+
+<dt>40. What habit of Character B does Character A secretly find endearing?</dt>
+<dd></dd>
+
+<dt>41. Who is more protective?</dt>
+<dd></dd>
+
+<dt>42. Who is more emotionally expressive?</dt>
+<dd></dd>
+
+<dt>43. Who would sacrifice more if necessary?</dt>
+<dd></dd>
+
+<dt>44. Who pushes the other to grow more?</dt>
+<dd></dd>
+
+<dt>45. What role does trust play in their relationship?</dt>
+<dd></dd>
+
+<dt>46. How do they handle long periods apart?</dt>
+<dd></dd>
+
+<dt>47. Who worries more about losing the other?</dt>
+<dd></dd>
+
+<dt>48. What strengthens their bond the most?</dt>
+<dd></dd>
+
+<dt>49. What weakness do they share?</dt>
+<dd></dd>
+
+<dt>50. What makes their relationship unique compared to others?</dt>
+<dd></dd>
+
+<dt>51. What would break them up?</dt>
+<dd></dd>
+
+<dt>52. What would bring them back together?</dt>
+<dd></dd>
+
+<dt>53. What secret longing does Character A have?</dt>
+<dd></dd>
+
+<dt>54. What secret longing does Character B have?</dt>
+<dd></dd>
+
+<dt>55. What is the most painful thing one has said to the other?</dt>
+<dd></dd>
+
+<dt>56. What almost caused them to give up?</dt>
+<dd></dd>
+
+<dt>57. What memory hurts the most?</dt>
+<dd></dd>
+
+<dt>58. What moment proved they truly loved each other?</dt>
+<dd></dd>
+
+<dt>59. Who would struggle more after a breakup?</dt>
+<dd></dd>
+
+<dt>60. What would make them fight the world for each other?</dt>
+<dd></dd>
+
+<dt>61. Do they see a future together?</dt>
+<dd></dd>
+
+<dt>62. What does Character A imagine their future looking like?</dt>
+<dd></dd>
+
+<dt>63. What does Character B imagine their future looking like?</dt>
+<dd></dd>
+
+<dt>64. Who is more afraid of commitment?</dt>
+<dd></dd>
+
+<dt>65. What major life event would test them most?</dt>
+<dd></dd>
+
+<dt>66. How would they handle living together?</dt>
+<dd></dd>
+
+<dt>67. Who would take the lead in big life decisions?</dt>
+<dd></dd>
+
+<dt>68. What kind of life do they build together?</dt>
+<dd></dd>
+
+<dt>69. How do they change each other over time?</dt>
+<dd></dd>
+
+<dt>70. What legacy would their relationship leave behind?</dt>
+<dd></dd>
+
+<dt>71. What past trauma affects Character A’s ability to love?</dt>
+<dd></dd>
+
+<dt>72. What past trauma affects Character B’s ability to love?</dt>
+<dd></dd>
+
+<dt>73. What is something neither has admitted out loud?</dt>
+<dd></dd>
+
+<dt>74. What unspoken rule exists in their relationship?</dt>
+<dd></dd>
+
+<dt>75. What silent promise do they keep?</dt>
+<dd></dd>
+
+<dt>76. Who understands the other better?</dt>
+<dd></dd>
+
+<dt>77. What moment made them feel truly seen?</dt>
+<dd></dd>
+
+<dt>78. What does forgiveness look like between them?</dt>
+<dd></dd>
+
+<dt>79. What do they teach each other about love?</dt>
+<dd></dd>
+
+<dt>80. What truth about themselves do they only accept because of the other?</dt>
+<dd></dd>
+
+<dt>81. Who falls asleep first?</dt>
+<dd></dd>
+
+<dt>82. Who remembers important dates?</dt>
+<dd></dd>
+
+<dt>83. Who gets flustered more easily?</dt>
+<dd></dd>
+
+<dt>84. Who is more dramatic?</dt>
+<dd></dd>
+
+<dt>85. What song represents them best?</dt>
+<dd></dd>
+
+<dt>86. What symbol represents their relationship?</dt>
+<dd></dd>
+
+<dt>87. What weather matches their vibe?</dt>
+<dd></dd>
+
+<dt>88. What small gesture means the most?</dt>
+<dd></dd>
+
+<dt>89. Who says “I love you” first?</dt>
+<dd></dd>
+
+<dt>90. How do they show love differently?</dt>
+<dd></dd>
+
+<dt>91. What would have happened if they never met?</dt>
+<dd></dd>
+
+<dt>92. What alternate universe version of them exists?</dt>
+<dd></dd>
+
+<dt>93. What would tear them apart in another timeline?</dt>
+<dd></dd>
+
+<dt>94. What fate keeps pulling them together?</dt>
+<dd></dd>
+
+<dt>95. What misunderstanding could have ended everything early on?</dt>
+<dd></dd>
+
+<dt>96. What makes their connection feel inevitable?</dt>
+<dd></dd>
+
+<dt>97. What would they regret most if they lost each other?</dt>
+<dd></dd>
+
+<dt>98. What defines their love in one word?</dt>
+<dd></dd>
+
+<dt>99. What is the core theme of their relationship?</dt>
+<dd>Toxic</dd>
+
+<dt>100. How would an outside observer describe their love story?</dt>
+<dd>Toxic</dd>

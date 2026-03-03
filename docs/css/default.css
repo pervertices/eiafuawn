@@ -15,26 +15,27 @@ img, iframe {
     width:100%
 }
 
-header {
+ header {
     grid-area:header
 }
-section {
+ section {
     grid-area:section
 }
-nav {
+ nav {
     grid-area:nav
 }
 aside {
     grid-area:aside
 }
-main {
+ main {
     grid-area:main
 }
-footer {
+ footer {
     grid-area:footer
 }
 * {
     paint-order: stroke fill;
+    box-sizing: border-box;
 }
 /* basic animations */
 
@@ -58,7 +59,13 @@ footer {
     margin-left: auto;
     margin-right: auto;
 }
-
+.button {
+    width:88px;
+    height:31px;
+}
+.flex {
+    display:flex;
+}
 /*font*/
 
 @font-face {

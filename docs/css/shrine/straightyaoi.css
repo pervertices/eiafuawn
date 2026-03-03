@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Yellowtail&display=swap');
+
+:root {
+  --primary:#fcbdca;
+  
+  --container:600px
+}
+
+body {
+  background-color:var(--primary);
+  background-image: url("../../assets/shrines/sy/bg.gif");
+}
+.lace {
+  position: fixed;
+  height:37px;
+  background-image:url("../../assets/shrines/sy/lace.gif");
+  width:100%;
+}
+.lace-two {
+  bottom: 0px;
+  rotate:180deg;
+  position: fixed;
+  height:37px;
+  background-image:url("../../assets/shrines/sy/lace.gif");
+  width:100%;
+}
+a {
+  transition: 0.2s;
+  text-decoration: none;
+}
+a:hover:not(.portraits a) {
+  letter-spacing: 2px;
+}
+#container {
+  position: relative;
+  top:37px;
+  text-align: center;
+  padding:5px;
+}
+
+#music-player {
+  width:200px;
+  position:fixed;
+  right:0px;
+  bottom:60px;
+}
+#music-player audio {
+  width:100%;
+}
+header {
+  height:200px;
+  border:1px solid #e7e7e7;
+  margin-bottom:10px;
+  position: relative;
+  background-image:url(../../assets/shrines/sy/aaaawwwww.png);
+  background-size:80%;
+  background-position:  150px -60px;
+  background-repeat: no-repeat;
+}
+header h1 {
+  position:absolute;
+  width:100%;
+  -webkit-text-stroke: 2px black;
+  color:white;
+  text-align: left;
+  bottom:30px;
+  left:60px;
+}
+.portraits {
+  display: flex;
+  justify-content: center;
+  gap:10px;
+}
+.portraits a {
+  background-color: white;
+  box-shadow: 0px 0px 3px #00000069;
+  padding:10px;
+  padding-bottom:20px;
+  font-family:"Yellowtail", cursive;
+  user-select: none;
+  cursor:default;
+}
+.portraits a:hover:first-child {
+  box-shadow: -10px 10px 10px #00000027;
+  rotate:-3deg;
+  scale:1.1
+}
+.portraits img {
+height:150px;
+}
+.box {
+  border-image: url("../../assets/shrines/sy/border.png") 8 fill round;
+border-width:7px;
+border-style:solid;
+}
+
+h1 {
+  font-family: "cookie", cursive;
+}
+video {
+  width:100%;
+}
+
+.chibi {
+  height:140px;
+}
