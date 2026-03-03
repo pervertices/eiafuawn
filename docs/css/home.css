@@ -12,7 +12,7 @@
 }
 
 body {
-    background-color: #101010;
+    background-color: #000000;
     background-image: url(../assets/bg/tt-black-mamba.png);
 }
 
@@ -26,10 +26,23 @@ body {
         "footer";
     z-index: 1;
     width: 800px;
-    border: 10px solid black;
+    border-image:conic-gradient(from var(--angle),red,yellow,lime,aqua,blue,magenta,red) 1!important;
+        animation: 3s linear infinite reverse rotate;
+    border: 5px solid transparent;
     grid-template-rows: 260px;
+    background-color: #00000079;
 }
 
+@property --angle {
+    syntax: "<angle>";
+    initial-value: 0deg;
+    inherits: false;
+}
+@keyframes rotate {
+    to {
+        --angle: 360deg;
+    }
+}
 header {
     position: relative;
     background-image: url(../assets/pg/home/header.png);
@@ -171,6 +184,28 @@ aside .chet {
 #sponsor {
     width:30%;
     background-color: red;
+}
+
+@keyframes yippee {
+
+    0%,
+    100% {
+        transform: translateY(0) scale(1, 1);
+    }
+
+    35% {
+        transform: translateY(-8px) scale(0.97, 1.08);
+        margin-top: -20px
+    }
+
+    60% {
+        transform: translateY(-4px) scale(1.02, 0.98);
+        margin-top: 10px
+    }
+
+    80% {
+        transform: translateY(8px) scale(1.08, 0.92);
+    }
 }
 #yap {
     width:60%;
