@@ -12,7 +12,12 @@ a {
     color:inherit;
 }
 img, iframe {
-    width:100%
+    width:100%;
+    border: none;
+}
+
+iframe {
+    height:100%
 }
 
  header {
