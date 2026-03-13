@@ -1,34 +1,88 @@
-#filter {
-    background-image: url(../assets/bg/tt-noise-lines.png);
-    height: 100%;
-    width: 100%;
-    position: fixed;
-    animation: bg-scroll 0.7s linear infinite;
-    opacity: 0.5;
-    pointer-events: none;
-    background-color: #000000ac;
-    z-index: 999;
-    background-blend-mode: overlay;
-}
-
 #discoparty {
     height: 100%;
     width: 100%;
     pointer-events: none;
     position: fixed;
     z-index: 999;
-    opacity:0.3;
+    opacity: 0.3;
     background-blend-mode: overlay;
-  animation: danceparty 2.3077s infinite step-end;
+    animation: danceparty 2.3077s infinite step-end;
 }
 
+::-webkit-scrollbar {
+    width: 16px
+}
+
+::-webkit-scrollbar:horizontal {
+    height: 17px
+}
+
+::-webkit-scrollbar-corner {
+    background: #dfdfdf
+}
+
+::-webkit-scrollbar-track {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='2' height='2' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M1 0H0v1h1v1h1V1H1V0z' fill='silver'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 0H1v1H0v1h1V1h1V0z' fill='%23fff'/%3E%3C/svg%3E")
+}
+
+::-webkit-scrollbar-thumb {
+    z-index: 1000;
+    background-color: silver;
+    box-shadow: inset -1px -1px #0a0a0a, inset 1px 1px #fff, inset -2px -2px gray, inset 2px 2px #dfdfdf
+}
+
+::-webkit-scrollbar-button:horizontal:end:increment,
+::-webkit-scrollbar-button:horizontal:start:decrement,
+::-webkit-scrollbar-button:vertical:end:increment,
+::-webkit-scrollbar-button:vertical:start:decrement {
+    display: block
+}
+
+::-webkit-scrollbar-button:vertical:start {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M8 6H7v1H6v1H5v1H4v1h7V9h-1V8H9V7H8V6z' fill='%23000'/%3E%3C/svg%3E");
+    height: 17px
+}
+
+::-webkit-scrollbar-button:vertical:end {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M11 6H4v1h1v1h1v1h1v1h1V9h1V8h1V7h1V6z' fill='%23000'/%3E%3C/svg%3E");
+    height: 17px
+}
+
+::-webkit-scrollbar-button:horizontal:start {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M9 4H8v1H7v1H6v1H5v1h1v1h1v1h1v1h1V4z' fill='%23000'/%3E%3C/svg%3E");
+    width: 16px
+}
+
+::-webkit-scrollbar-button:horizontal:end {
+    background-image: url("data:image/svg+xml;charset=utf-8,%3Csvg width='16' height='17' fill='none' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 0H0v16h1V1h14V0z' fill='%23DFDFDF'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M2 1H1v14h1V2h12V1H2z' fill='%23fff'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M16 17H0v-1h15V0h1v17z' fill='%23000'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M15 1h-1v14H1v1h14V1z' fill='gray'/%3E%3Cpath fill='silver' d='M2 2h12v13H2z'/%3E%3Cpath fill-rule='evenodd' clip-rule='evenodd' d='M7 4H6v7h1v-1h1V9h1V8h1V7H9V6H8V5H7V4z' fill='%23000'/%3E%3C/svg%3E");
+    width: 16px
+}
+
+
 @keyframes danceparty {
-  0%   { background-color: #c751df; }
-  20%  { background-color: #468aff; }
-  40%  { background-color: #ff8400; }
-  60%  { background-color: #f95cdc; }
-  80%  { background-color: #4dc398; }
-  100% { background-color: #fff34a; }
+    0% {
+        background-color: #c751df;
+    }
+
+    20% {
+        background-color: #468aff;
+    }
+
+    40% {
+        background-color: #ff8400;
+    }
+
+    60% {
+        background-color: #f95cdc;
+    }
+
+    80% {
+        background-color: #4dc398;
+    }
+
+    100% {
+        background-color: #fff34a;
+    }
 }
 
 body {
@@ -168,12 +222,15 @@ nav ul li button {
     color: white;
     -webkit-text-stroke: 2px black;
     background-image: linear-gradient(to top, #ffffff57, transparent);
-    transition: 0.5s background-image, 0.5s color;
+    transition: 0.5s background-image, 0.5s color, 0.2s margin-top, 0.2s transform;
+    margin-top: 0px
 }
 
 nav ul li button:hover {
     color: yellow;
-    background-image: linear-gradient(to top, #ffffff87, transparent)
+    background-image: linear-gradient(to top, #ffffff87, transparent);
+    margin-top: -7px;
+    transform: scale(1.1)
 }
 
 .container:has(nav ul li:last-of-type button:hover) .marcos {
@@ -235,7 +292,7 @@ article img {
 
 article iframe {
     width: 795px;
-    height: 500px;
+    height: 300px;
 }
 
 footer {
@@ -276,15 +333,16 @@ p {
 a:hover {
     color: yellow !important
 }
+
 a {
-    color:inherit !important
+    color: inherit !important
 }
 
 #music {
-    position:absolute;
+    position: absolute;
     width: 400px;
-    bottom:0px;
-    right:0px;
-    z-index:300;  
-    height:500px 
+    bottom: 0px;
+    right: 0px;
+    height: 500px;
+    z-index: 9
 }
