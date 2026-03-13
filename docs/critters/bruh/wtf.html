@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="../../css/default.css" />
+    <link rel="icon" href="../../assets/icon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../css/critters.css" />
+    <title>alright bro pack it up</title>
+    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js" defer></script>
+    <script src="https://kit.fontawesome.com/08a9b18601.js" crossorigin="anonymous" defer></script>
+</head>
+<style>
+    .container {
+        width: 1200px;
+    }
+
+    main {
+        gap: 5px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .jorker {
+        border: 1px solid black;
+        width: 500px;
+        padding: 5px;
+        gap: 5px;
+    }
+
+    .ico {
+        border: 1px solid black;
+        width: 100px;
+        height: 100px;
+        background-size:100%;
+    }
+
+    .jork {
+        border: 1px solid;
+        flex-grow: 1;
+        position:relative
+    }
+    .ball {
+        background-color: #ff0000;
+        height:100px;
+        width:100px;
+        border-radius: 100%;
+        animation:OHGOD infinite;
+        position:absolute;
+        right:0px;
+    }
+    @keyframes OHGOD {
+        0%, 100% {
+            right:0px
+        }
+        50% {
+            right:290px
+        }
+    }
+</style>
+
+<body>
+    <div class="container">
+        im not sorry
+        <main class="flex">
+            <div class="flex jorker">
+                <div class="ico" style="background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/thumbnails/114299814_ad3.png?1769813398)"></div>
+                <div class="jork">
+                    <div class="ball" style="animation-duration: 0.5s;"></div>
+                </div>
+            </div>
+            <div class="flex jorker">
+                <div class="ico" style="background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/characters/37284419?1771913111)"></div>
+                <div class="jork">
+                    <div class="ball" style="animation-duration: 0.3s;"></div>
+                </div>
+            </div>
+            <div class="flex jorker">
+                <div class="ico" style="background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/characters/36600543?1767413125)"></div>
+                <div class="jork">
+                    <div class="ball" style="animation-duration: 900s;"></div>
+                </div>
+            </div>
+            <div class="flex jorker">
+                <div class="ico" style="background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/characters/36671309?1771913042)"></div>
+                <div class="jork">
+                    <div class="ball" style="animation-duration: 2s;"></div>
+                </div>
+            </div>
+            <div class="flex jorker">
+                <div class="ico" style="background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/characters/37728397?1771208238)"></div>
+                <div class="jork">
+                    <div class="ball" style="animation-duration: 1s;"></div>
+                </div>
+            </div>
+            <div class="flex jorker">
+                <div class="ico" style="background-image:url(https://f2.toyhou.se/file/f2-toyhou-se/characters/31572835?1767413197)"></div>
+                <div class="jork">
+                    <div class="ball" style="animation-duration: 0.13s;"></div>
+                </div>
+            </div>
+
+        </main>
+    </div>
+</body>

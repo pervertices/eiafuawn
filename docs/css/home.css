@@ -19,6 +19,7 @@ body {
 .tooltip {
     background-color: black;
     color:gold;
+    width:100px
 }
 
 .container {

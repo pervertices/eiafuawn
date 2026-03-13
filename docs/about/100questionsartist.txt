@@ -1,0 +1,371 @@
+<h1>100 Questions for Artist</h1>
+<dl>
+<dt>1.) Introduce yourself! What kind of art do you make?</dt>
+<dd>
+    I'm Rei Yami. I make art.</dd>
+
+<dt>2.) How long have you been making art?</dt>
+<dd>
+    Since I was fresh out of the womb. Or, a year afterwards. Almost 2 decades.
+</dd>
+
+<dt>3.) How many hours do you spend for each piece?</dt>
+<dd>
+    Shit idk. If I actually care, I can spend 20+ hours on a piece. But a sketch (in reference to Music/Visual) takes me 3 hours on average.
+</dd>
+
+<dt>4.) Do you prefer taking your time or do you like to quickly move on to the next thing?</dt>
+<dd>
+    Quickly. I move on as soon as it conveys the message I'm trying to get across.
+</dd>
+
+<dt>5.) When do you decide a piece is finished?</dt>
+<dd>
+    I don't decide when a piece is finished. The piece will be finished with me.
+</dd>
+
+<dt>6.) What part of the creation process do you enjoy the most?</dt>
+<dd>
+    For 3D models, rendering or modeling.
+    Visual art, go fuck yourself.
+    Music, Uuuuuhhh. Jeez, this is hard. Placing notes down.
+</dd>
+
+<dt>7.) What part of the creation process do you dislike the most?</dt>
+<dd>
+    For 3D models, UV editing. This is because I get very anxious viewing the textures.
+    Visual art, everything.
+    Music, I use OpenMPT, and I don't use my physical keyboard, though I should, so I manually have to type notes. It becomes very tedious very fast.
+</dd>
+
+<dt>8.) Do you have a designated workstation or do you just work wherever?</dt>
+<dd>
+    Some days I lie in bed, some days I sit at my desk, some days I'm at school with my friends.
+</dd>
+
+<dt>9.) Do you monetize you work or is it purely a hobby?</dt>
+<dd>
+    Hobby. Though, I'd like to make unofficial merch like stickers for things I enjoy. I wouldn't monetize my original work.
+</dd>
+
+<dt>10.) Where do you share your work? On social media or a personal websites? Do you keep to yourself and close friends?</dt>
+<dd>
+    Both. @ 4reiyami anywhere.
+</dd>
+
+<dt>11.) What's an aspect of your art you enjoy?</dt>
+<dd>
+    I like seeing my ideas come to life.
+</dd>
+
+<dt>12.) What are things you would like to improve on?</dt>
+<dd>
+    Liking my art.
+</dd>
+
+<dt>13.) Are you self-taught or had formal education?</dt>
+<dd>
+    I would like to pursue formal education (though I believe it would do nothing for me.)
+</dd>
+
+<dt>14.) Do you research about old techniques or stick to newer ones?</dt>
+<dd>
+    It depends on the style I choose to go for. My style is very fluid.
+</dd>
+
+<dt>15.) What do you value more, experimentation or mastery?</dt>
+<dd>
+  Experimentation.
+</dd>
+
+<dt>16.) Do you practice drawing from the arm? What other art techniques to you practice?</dt>
+<dd>
+    I draw with my arm. The right one. I may try to take a gander with my left one. Maybe even my feet one day.
+</dd>
+
+<dt>17.) How frequently do you do studies?</dt>
+<dd>
+    Once a decade.
+</dd>
+
+<dt>18.) Do you understand color theory? How'd you learn or do you want to?</dt>
+<dd>
+    I have a very basic understanding of it. I watched a color theory video. Don't care too much about it. Just enough to make my colors pop in a way that is pretty.
+</dd>
+
+<dt>19.) Favorite color(s)?</dt>
+<dd>
+  Bright Orange. Or muted primary colors.
+</dd>
+
+<dt>20.) Are there colors you avoid? Do you think ugly colors exists?</dt>
+<dd>
+  I tend to avoid dull colors, browns made of primarily yellow, unless im like, painting or something. I don't think ugly colors exist.
+</dd>
+
+<dt>21.) Can you do perspective?</dt>
+<dd>
+  Hell no
+</dd>
+
+<dt>22.) Do you like doing lineart? How do you go about it?</dt>
+<dd>
+  Hell no. I clean my sketches. Or if im insane and want to do lineart, I either use vectors or stabilizers. I hate. stabilizers.<br>
+</dd>
+
+<dt>23.) Do you have multiple unfinished projects? Will you ever get to finishing them?</dt>
+<dd>
+  Yes. Likely not.
+</dd>
+
+<dt>24.) How do you start a new piece? Do you have a plan or just figure it along the way?</dt>
+<dd>
+  I just figure it out along the way. I have a bunch of references that I like to redraw with my ocs. Its very rare that I have my own idea... Or really, its not htat i dont hvae my own idea, i have plenty of those, i just dont feel strong enough trying to execute it wihtout a base to start from.
+</dd>
+
+<dt>25.) How do you handle art block?</dt>
+<dd>
+  Tie a noose
+</dd>
+
+<dt>26.) Do you listen to music or watch something while working?</dt>
+<dd>
+  I try to listen to music but i get distracted easily. same issue with videos
+</dd>
+
+<dt>27.) When are you most motivated to create? In the morning or evening? Rainy or sunny?</dt>
+<dd>
+  Night, alone.
+</dd>
+
+<dt>28.) Are your sketchbooks messy or aesthetically pleasing?</dt>
+<dd>
+  Messy. Extremely messy.
+</dd>
+
+<dt>29.) Do you like showing sketchbooks to others?</dt>
+<dd>
+  Hell no
+</dd>
+
+<dt>30.) Do you have any art friends? IRL or online?</dt>
+<dd>
+  Yes, plenty irl. not much online. everyone who is my friend in the rgg fandom has been an artist tho!
+</dd>
+
+<dt>31.) Do you collaborate frequently with your friends? Is there something you'd like to work on together?</dt>
+<dd>
+  YAOI YAOI YAOI YAOI
+</dd>
+
+<dt>32.) Have you created art to gift to others? How do feel about parting away from your work?</dt>
+<dd>
+  Yes. I dont care.
+</dd>
+
+<dt>33.) Have you drawn for someone else? Like commissions or requests? Did you enjoy it?</dt>
+<dd>
+  I've done requests. If its something im familiar with then I may enjoy it. Otherwise, not. I do not do commissions and likely won't.
+</dd>
+
+<dt>34.) How's your posture?</dt>
+<dd>Awful, thanks for asking</dd>
+
+<dt>35.) Have you ever been injured making art?</dt>
+<dd>Yes. My right h</dd>
+
+<dt>36.) What's a medium of art you've wanted to try / currently attempting?</dt>
+<dd>I want to learn how to paint.</dd>
+
+<dt>37.) Do you prefer stylized or realistic art?</dt>
+<dd>Stylized.</dd>
+
+<dt>38.) Do you like hyper-realistic art?</dt>
+<dd>Ummmm. It's not for me. But it looks good sometimes.</dd>
+
+<dt>39.) Do you like abstract art?</dt>
+<dd>Sometimes. I don't do it myself tho</dd>
+
+<dt>40.) How do you feel about fine art?</dt>
+<dd>fine art with my fine liner. Fine art is okay, I guess. Its just art.</dd>
+
+<dt>41.) How do you feel about outsider art? Do you think you fall in that category?</dt>
+<dd>The hell is outsider art. looks it up. oh. ok. thats what i make so i guess its ok</dd>
+
+<dt>42.) Do you follow art trends?</dt>
+<dd>No.</dd>
+
+<dt>43.) Do you think your art is influenced by what's currently popular?</dt>
+<dd>Um... Not currently popular.</dd>
+
+<dt>44.) Do you compare yourself with others? Does it affect you negatively?</dt>
+<dd>No.</dd>
+
+<dt>45.) Your controversial art take?</dt>
+<dd>Do what you want. Also shading with black is goated dont let those "anime" artists poison you.</dd>
+
+<dt>46.) Art related pet peeves?</dt>
+<dd>birdie art</dd>
+
+<dt>47.) Who or what are your inspirations?</dt>
+<dd>frfrongg my goat</dd>
+
+<dt>48.) What's an art piece / artist you wished got more attention?</dt>
+<dd>frfrongg my goat</dd>
+
+<dt>49.) Have you touch grass recently? Do you go out frequently or do you spend most of your time indoors?</dt>
+<dd></dd>
+
+<dt>50.) Do you create art daily?</dt>
+<dd></dd>
+
+<dt>51.) Do you take breaks from creating? How frequently?</dt>
+<dd></dd>
+
+<dt>52.) Do you set deadline for your work?</dt>
+<dd></dd>
+
+<dt>53.) Do you archive your work? Do you keep old pieces?</dt>
+<dd></dd>
+
+<dt>54.) Are you embarrassed of your old work? Or are you indifferent by it?</dt>
+<dd></dd>
+
+<dt>55.) Do you seek out for criticism? How do you handle feedback?</dt>
+<dd></dd>
+
+<dt>56.) Are you harsh on your own work? Or do you love your work despite all it's flaws?</dt>
+<dd></dd>
+
+<dt>57.) Do you get compliments frequently? How do feel about them?</dt>
+<dd></dd>
+
+<dt>58.) How do feel about the rise of generative AI? Do you use it for getting ideas or references?</dt>
+<dd></dd>
+
+<dt>59.) How do feel about tracing? What about tracing 3d models to streamline art process?</dt>
+<dd></dd>
+
+<dt>60.) Drop you art resources!</dt>
+<dd></dd>
+
+<dt>61.) Do you prefer making fanart or original content?</dt>
+<dd></dd>
+
+<dt>62.) Do you think original content are more creative than fanart?</dt>
+<dd></dd>
+
+<dt>63.) Do you strive for originality?</dt>
+<dd></dd>
+
+<dt>64.) Do you draw from imagination or heavily rely on references?</dt>
+<dd></dd>
+
+<dt>65.) Do you think using references is a crutch?</dt>
+<dd></dd>
+
+<dt>66.) Do you like to make mood boards or scroll through Pinterest?</dt>
+<dd></dd>
+
+<dt>67.) Does your work have a story behind them or do you just make things that you think look neat?</dt>
+<dd></dd>
+
+<dt>68.) Do you think art should have a purpose?</dt>
+<dd></dd>
+
+<dt>69.) Favorite aesthetic?</dt>
+<dd></dd>
+
+<dt>70.) Do you have a muse or a theme you fall back to?</dt>
+<dd></dd>
+
+<dt>71.) If you could eat you art, what would it taste like?</dt>
+<dd></dd>
+
+<dt>72.) If your work suddenly became sentient, would it adore or hate you?</dt>
+<dd></dd>
+
+<dt>73.) Based on previous question, can you win in a fist fight against it?</dt>
+<dd></dd>
+
+<dt>74.) Is your art style consistent? Do you prefer making a wide variety of art?</dt>
+<dd></dd>
+
+<dt>75.) Do you revisit old concepts or sketches? Do you touch em up or leave them as is?</dt>
+<dd></dd>
+
+<dt>76.) Do you believe in talent or is it all skill?</dt>
+<dd></dd>
+
+<dt>77.) What's your favorite thing to draw / make? Do you prefer making living things or still life?</dt>
+<dd></dd>
+
+<dt>78.) Do you create your art with a specific audience in mind? Who?</dt>
+<dd></dd>
+
+<dt>79.) How do you feel about people taking inspiration from work? Do you think art style theft is real?</dt>
+<dd></dd>
+
+<dt>80.) Do you participate in art conventions? Do you sell your work or support everyone else?</dt>
+<dd></dd>
+
+<dt>81.) Are you art materials expensive? Do you hoard any tools?</dt>
+<dd></dd>
+
+<dt>82.) Do you organize you supplies and tools systematically?</dt>
+<dd></dd>
+
+<dt>83.) Do you clean up after a project? Or do you just leave everything lying around till you need the space?</dt>
+<dd></dd>
+
+<dt>84.) Do you have a ritual before you start creating? Do you have a drink or some snacks?</dt>
+<dd></dd>
+
+<dt>85.) How do feel about censorship in art? Where do you draw the line for inappropriate art?</dt>
+<dd></dd>
+
+<dt>86.) Do you censor your own art? Do you feel like you leave out details for it be socially accepted?</dt>
+<dd></dd>
+
+<dt>87.) Do you feel intimated with starting a new projects?</dt>
+<dd></dd>
+
+<dt>88.) Are you scared of your art regressing? Do you think it's even possible to get worst at art?</dt>
+<dd></dd>
+
+<dt>89.) Do you frequently make compromises for your work? Does your art come out the way you envision them?</dt>
+<dd></dd>
+
+<dt>90.) How well do you manage your mistakes? Do you stress about them?</dt>
+<dd></dd>
+
+<dt>91.) Do you make lists of things you'd like to make? Do you actual commit to them?</dt>
+<dd></dd>
+
+<dt>92.)  What is your ultimate goal of your work? Like, is to tell a story, connect with others, or just to enjoy the process?</dt>
+<dd></dd>
+
+<dt>93.) What's something you've recently worked on that you're really proud of?</dt>
+<dd></dd>
+
+<dt>94.) Do you have any dream projects? Have you started on them?</dt>
+<dd></dd>
+
+<dt>95.) Would you prefer unlimited money or unlimited time to make your projects?</dt>
+<dd></dd>
+
+<dt>96.) Why do you create art?</dt>
+<dd></dd>
+
+<dt>97.) Are you happy with what you create?</dt>
+<dd></dd>
+
+<dt>98.) Do you think everyone should make art?</dt>
+<dd></dd>
+
+<dt>99.) What's advice you'd give to newer artist?</dt>
+<dd></dd>
+
+<dt>100.) When did you finish this? How'd you feel?</dt>
+<dd></dd>
+</dl>

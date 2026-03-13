@@ -70,9 +70,18 @@ aside {
 .flex {
     display:flex;
 }
+
+.tooltip {
+  visibility: hidden;
+  position: absolute;
+  z-index: 1;
+}
+
+
 /*font*/
 
 @font-face {
     font-family:Impact;
     src: url();
 }
+
