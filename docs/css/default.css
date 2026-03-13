@@ -1,8 +1,8 @@
 /*Semantics*/
 
 h1,h2,h3,h4,h5,h6,p,pre,code,blockquote,ul,ol,li,hr,body {
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
     font-weight: normal;
 }
 body {
@@ -19,7 +19,9 @@ img, iframe {
 iframe {
     height:100%
 }
-
+div {
+    position:relative;
+}
  header {
     grid-area:header
 }

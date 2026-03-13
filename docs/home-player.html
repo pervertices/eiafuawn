@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Music Player</title>
+
+    <link rel="stylesheet" href="https://unpkg.com/7.css">
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Segoe UI, sans-serif;
+        }
+
+        .flex {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            padding: 10px;
+        }
+
+        .music-info {
+            font-size: 13px;
+        }
+
+        #deets {
+            font-size: 11px;
+            width: 200px;
+        }
+
+        #album-img {
+            width: 50px;
+            height: 50px;
+            border: 1px solid #919ca8;
+            border-bottom-color: #adbcce;
+            border-radius: 3px;
+        }
+
+        .navi {
+            display: flex;
+        }
+
+        .action-btn {
+            cursor: pointer;
+        }
+
+        .progress-container {
+            background: #cce4fe;
+            border: 1px solid #919ca8;
+            border-bottom-color: #adbcce;
+            height: 6px;
+            width: 280px;
+            margin: auto;
+            position: relative;
+            cursor: pointer;
+        }
+
+        .progress {
+            background: #12509d;
+            height: 100%;
+            width: 0%;
+        }
+
+        .time {
+            display: flex;
+            justify-content: space-between;
+            font-size: 11px;
+            width: 280px;
+            margin: auto;
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="window active glass">
+
+        <div class="title-bar">
+            <div class="title-bar-text">Windows Media Player</div>
+            <div class="title-bar-controls">
+                <button aria-label="Minimize"></button>
+                <button aria-label="Maximize"></button>
+                <button aria-label="Close"></button>
+            </div>
+        </div>
+
+        <div class="window-body has-space" style="padding:0;background:#cce4fe;">
+
+            <div class="music-info">
+                <div id="friday-area">
+                    <p id="friday-text">come on friday to see something awesome</p>
+                    <img src="assets/pg/home/friday-night.gif" id="friday-img" style="display:none;width:100%">
+                </div>
+                <hr>
+                <div class="flex">
+
+                    <img id="album-img" alt="album cover" style="image-rendering: pixelated;">
+
+                    <div id="deets">
+                        <div id="artist">Artist</div>
+                        <div id="album">Album</div>
+                        <div id="title">Title</div>
+                        <img src="assets/pg/home/stars.png">
+                    </div>
+
+                    <div class="navi">
+                        <img src="assets/pg/home/prev.png" id="prev" class="action-btn">
+                        <img src="assets/pg/home/play.png" id="play" class="action-btn">
+                        <img src="assets/pg/home/next.png" id="next" class="action-btn">
+                    </div>
+
+                </div>
+
+                <div class="progress-container" id="progress-container">
+                    <div class="progress" id="progress"></div>
+                </div>
+
+                <div class="time">
+                    <span id="current">0:00</span>
+                    <span id="duration">0:00</span>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+
+    <audio id="audio"></audio>
+
+<script>
+const audio = document.getElementById("audio")
+const playBtn = document.getElementById("play")
+const nextBtn = document.getElementById("next")
+const prevBtn = document.getElementById("prev")
+const progress = document.getElementById("progress")
+const progressContainer = document.getElementById("progress-container")
+const currentTimeEl = document.getElementById("current")
+const durationEl = document.getElementById("duration")
+const artist = document.getElementById("artist")
+const album = document.getElementById("album")
+const cover = document.getElementById("album-img")
+const title = document.getElementById("title")
+const fridayText = document.getElementById("friday-text")
+const fridayImg = document.getElementById("friday-img")
+let songs = []
+let index = 0
+const today = new Date().getDay()
+const isFriday = today === 5
+
+fetch("songs.json")
+.then(res => res.json())
+.then(data => {
+    songs = data
+    if(isFriday){
+        fridayText.style.display = "none"
+        fridayImg.style.display = "block"
+        songs.unshift({
+            title: "Friday Night",
+            artist: "SEGA SOUND TEAM",
+            album: "Yakuza 0",
+            file: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/2-35%20Friday%20Night.mp3",
+            cover: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/yakuza.jpg"
+        })
+    }
+    loadSong(index)
+})
+
+function loadSong(i){
+    const song = songs[i]
+    audio.src = song.file
+    title.textContent = song.title
+    artist.textContent = song.artist
+    album.textContent = song.album
+    cover.src = song.cover
+    // Always hide disco party until play is pressed
+    const discoDiv = window.parent.document.getElementById("discoparty")
+    if(discoDiv) discoDiv.style.display = "none"
+}
+
+function playSong(){
+    audio.play()
+    // Only show disco party if Friday and Friday Night song
+    if(isFriday && songs[index].title === "Friday Night"){
+        const discoDiv = window.parent.document.getElementById("discoparty")
+        if(discoDiv) discoDiv.style.display = "block"
+    }
+}
+
+function pauseSong(){
+    audio.pause()
+    // Hide disco party when paused
+    const discoDiv = window.parent.document.getElementById("discoparty")
+    if(discoDiv) discoDiv.style.display = "none"
+}
+
+playBtn.addEventListener("click", () => {
+    if(audio.paused){
+        playSong()
+    }else{
+        pauseSong()
+    }
+})
+
+nextBtn.addEventListener("click", () => {
+    index++
+    if(index >= songs.length) index = 0
+    loadSong(index)
+    playSong()
+})
+
+prevBtn.addEventListener("click", () => {
+    index--
+    if(index < 0) index = songs.length - 1
+    loadSong(index)
+    playSong()
+})
+
+audio.addEventListener("timeupdate", () => {
+    const {duration,currentTime} = audio
+    const progressPercent = (currentTime / duration) * 100
+    progress.style.width = progressPercent + "%"
+    updateTime(currentTime,currentTimeEl)
+})
+
+audio.addEventListener("loadedmetadata", () => {
+    updateTime(audio.duration,durationEl)
+})
+
+function updateTime(time,element){
+    const minutes = Math.floor(time / 60)
+    let seconds = Math.floor(time % 60)
+    if(seconds < 10) seconds = "0" + seconds
+    element.textContent = minutes + ":" + seconds
+}
+
+progressContainer.addEventListener("click", (e) => {
+    const width = progressContainer.clientWidth
+    const clickX = e.offsetX
+    const duration = audio.duration
+    audio.currentTime = (clickX / width) * duration
+})
+
+audio.addEventListener("ended", () => {
+    index++
+    if(index >= songs.length) index = 0
+    loadSong(index)
+    playSong()
+})</script>
+
+</body>
+
+</html>

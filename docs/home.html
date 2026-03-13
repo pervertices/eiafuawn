@@ -8,27 +8,50 @@
     <link rel="icon" href="assets/icon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="css/home.css" />
     <title>FUNNY AWESOME LAND | Leave a like if you like Minecraft</title>
-    <script src="https://unpkg.com/webamp@1.4.0/built/webamp.bundle.min.js" defer></script>
     <script src="https://kit.fontawesome.com/08a9b18601.js" crossorigin="anonymous" defer></script>
 </head>
 
 <body>
 
+    <div id="discoparty" style="display:none">
+
+    </div>
+    <div id="music">
+            <iframe src="home-player.html"></iframe>
+    </div>
     <div id="filter" class="pixel"></div>
     <div class="container">
         <header>
+
             <h1 class="impact">FUNNY AWESOME LAND</h1>
             <img src="assets/pg/home/marcos.gif" class="marcos pixel" aria-hidden="true" alt=" " />
         </header>
+        <script defer>
+            const audio = new Audio("https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/07.%20Funk%20Goes%20On%20%E6%A5%B5.mp3");
+            audio.preload = "auto";
+
+            const header = document.querySelector("header");
+
+            header.addEventListener("mouseenter", () => {
+                audio.play().catch(() => { });
+            });
+
+            header.addEventListener("mouseleave", () => {
+                audio.pause();
+            });
+        </script>
+
         <main>
             <nav>
                 <img src="assets/pg/home/warning-div.gif" class="warn-div" aria-hidden="true" alt=" " class="pixel" />
                 <ul>
                     <li>
-                        <a href="not_found.html" title="about the shitty site und even shittier webmaster!"><button>aboot</button></a>
+                        <a href="not_found.html"
+                            title="about the shitty site und even shittier webmaster!"><button>aboot</button></a>
                     </li>
                     <li>
-                        <a href="not_found.html" title="i put my shitty art and comics here."><button>gallery</button></a>
+                        <a href="not_found.html"
+                            title="i put my shitty art and comics here."><button>gallery</button></a>
                     </li>
                     <li>
                         <a href="not_found.html" title="i talk about shit here."><button>blawg</button></a>
@@ -37,45 +60,111 @@
                         <a href="not_found.html" title="my shitty characters"><button>creaturs</button></a>
                     </li>
                     <li>
-                        <a href="not_found.html" title="websites i found helpful, bookmarks, and etc"><button>resources</button></a>
+                        <a href="not_found.html"
+                            title="websites i found helpful, bookmarks, and etc"><button>resources</button></a>
                     </li>
                 </ul>
             </nav>
+            <script defer>
+                const hoverSound = new Audio("https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/audio/nav.ogg");
+                const clickSound = new Audio("https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/audio/sh2.mp3");
+
+                hoverSound.preload = "auto";
+                clickSound.preload = "auto";
+                hoverSound.load();
+                clickSound.load();
+
+                document.querySelectorAll("nav a").forEach(link => {
+
+                    link.addEventListener("mouseenter", () => {
+                        hoverSound.currentTime = 0;
+                        hoverSound.play();
+                    });
+
+                    link.addEventListener("click", (e) => {
+                        e.preventDefault();
+
+                        const url = link.href;
+
+                        clickSound.currentTime = 0;
+                        clickSound.play();
+
+                        const delay = clickSound.duration * 1000 || 400;
+                        setTimeout(() => {
+                            window.location.href = url;
+                        }, delay);
+                    });
+
+                });
+            </script>
+
             <aside>
                 <a href=""><img src="assets/pg/home/ok.png" class="pixel chet" /></a>
-                <div class="">
-                    
-                </div>
+                <form method="post" action="https://poll.pollcode.com/64629528">
+                    <div>
+                        <div style="padding:2px 0px 4px 2px;"><strong>What is your favorite type of ramen?</strong>
+                        </div><input type="radio" name="answer" value="1" id="answer646295281"
+                            style="float:left;" /><label for="answer646295281"
+                            style="float:left;width:150px;">Tonkotsu</label>
+                        <div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="2"
+                            id="answer646295282" style="float:left;" /><label for="answer646295282"
+                            style="float:left;width:150px;">Shio</label>
+                        <div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="3"
+                            id="answer646295283" style="float:left;" /><label for="answer646295283"
+                            style="float:left;width:150px;">Miso</label>
+                        <div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="4"
+                            id="answer646295284" style="float:left;" /><label for="answer646295284"
+                            style="float:left;width:150px;">Sapporo</label>
+                        <div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="5"
+                            id="answer646295285" style="float:left;" /><label for="answer646295285"
+                            style="float:left;width:150px;">Shoyu</label>
+                        <div style="clear:both;height:2px;"></div><input type="radio" name="answer" value="6"
+                            id="answer646295286" style="float:left;" /><label for="answer646295286"
+                            style="float:left;width:150px;">The instant kind</label>
+                        <div style="clear:both;height:2px;"></div>
+                        <div align="center" style="padding:3px;"><input type="submit" value=" Vote ">&nbsp;<input
+                                type="submit" name="view" value=" View "></div>
+                        <div align="right" style="font-size:10px">pollcode.com <a href="https://pollcode.com/">free
+                                polls</a></div>
+                    </div>
+                </form>
             </aside>
             <section>
                 <div class="flex">
                     <div id="sponsor">
-
+                        <img src="assets/pg/home/welcome.gif">
                     </div>
                     <div id="yap">
-                        <div>Hello and welcome to funny awesome land. Try not to get lost. That's all.</div>
+                        <div>Hello and welcome to <code>funny awesome land</code>.<br> Try not to get lost. That's all.
+                        </div>
                         <div>Check out these cool websits ok</div>
                         <div class="btn-wall">
                             <a href="https://38cautionzone.com/" target="_blank">
-                                <img src="assets/pg/home/88x31-38Caution.gif" class="button">
+                                <img src="assets/pg/home/88x31-38Caution.gif" class="button" alt="38cautionzone">
                             </a>
                             <a href="https://dimwit.neocities.org/" target="_blank">
-                                <img src="assets/pg/home/dim-btn.gif" class="button">
+                                <img src="assets/pg/home/dim-btn.gif" class="button" alt="dimwit">
                             </a>
                             <a href="https://parkaction.neocities.org" target="_blank">
-                                <img src="assets/pg/home/stillbutton.png" class="button">
+                                <img src="assets/pg/home/stillbutton.png" class="button" alt="parkaction">
                             </a>
                             <a href="https://jugproductions.neocities.org" target="_blank">
-                                <img src="assets/pg/home/jugbutton.gif" class="button">
+                                <img src="assets/pg/home/jugbutton.gif" class="button" alt="jugproductions">
                             </a>
                             <a href="https://reigen.moe/" target="_blank">
-                                <img src="assets/pg/home/reigenmoe-badge.gif" class="button">
+                                <img src="assets/pg/home/reigenmoe-badge.gif" class="button" alt="reigen.moe">
                             </a>
                             <a href="https://piggie.party/" target="_blank">
-                                <img src="assets/pg/home/piggyparty.png" class="button">
+                                <img src="assets/pg/home/piggyparty.png" class="button" alt="piggie.party">
                             </a>
                             <div>and be sure to click on lotsa things cus there are many easter eggs! <img
-                                    src="assets/emo/love2.gif" class="pixelated" style="width:29px"></div>
+                                    src="assets/emo/love2.gif" class="pixel"
+                                    style="width:29px;position:relative;bottom:-6px">
+                                <img src="assets/pg/home/twinkle.gif" class="pixel"
+                                    style="position: absolute;width:100px;left:-190px;top:0px;z-index:9">
+                                <img src="assets/pg/home/rainbowglitter.gif" class="pixel"
+                                    style="position: absolute;width:100px;right:-40px;top:-120px;z-index:0">
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -84,18 +173,18 @@
             </section>
             <article>
                 <div class="flex">
-                    <img src="assets/bumper-stickers/embrace_chaos.gif" aria-hidden="true" alt=" " >
-                    <img src="assets/bumper-stickers/winning.gif" aria-hidden="true" alt=" " >
-                    <img src="assets/bumper-stickers/overthink_who_will.png" aria-hidden="true" alt=" " >
-                    <img src="assets/bumper-stickers/zombie_crossing.png" aria-hidden="true" alt=" " >
+                    <img src="assets/bumper-stickers/embrace_chaos.gif" aria-hidden="true" alt=" ">
+                    <img src="assets/bumper-stickers/winning.gif" aria-hidden="true" alt=" ">
+                    <img src="assets/bumper-stickers/overthink_who_will.png" aria-hidden="true" alt=" ">
+                    <img src="assets/bumper-stickers/zombie_crossing.png" aria-hidden="true" alt=" ">
 
                 </div>
                 <iframe src="updates.html"></iframe>
             </article>
         </main>
         <footer>
-            <img src="" id="one" aria-hidden="true" alt=" " >
-            <img src="" id="two" aria-hidden="true" alt=" " >
+            <img src="" id="one" aria-hidden="true" alt=" ">
+            <img src="" id="two" aria-hidden="true" alt=" ">
             <img src="assets/pg/home/warning-div.gif" class="warn-div" aria-hidden="true" alt=" " class="pixel" />
             <br>
             <p>
@@ -111,25 +200,25 @@
                 </small>
             </p>
             <p>
-                <img src="assets/pg/home/luxray.gif" class="pixel pkm" aria-hidden="true" alt=" "  />
-                <img src="assets/pg/home/mienshao.gif" class="pixel pkm" aria-hidden="true" alt=" "  />
+                <img src="assets/pg/home/luxray.gif" class="pixel pkm" aria-hidden="true" alt=" " />
+                <img src="assets/pg/home/mienshao.gif" class="pixel pkm" aria-hidden="true" alt=" " />
                 <img src="assets/pg/home/arcanine.gif" class="pixel pkm" aria-hidden="true" alt=" " />
                 <img src="assets/pg/home/golurk.gif" class="pixel pkm" aria-hidden="true" alt=" " />
-                <img src="assets/pg/home/dragonite.gif" class="pixel pkm" aria-hidden="true" alt=" "  />
-                <img src="assets/pg/home/mandibuzz.gif" class="pixel pkm" aria-hidden="true" alt=" "  />
+                <img src="assets/pg/home/dragonite.gif" class="pixel pkm" aria-hidden="true" alt=" " />
+                <img src="assets/pg/home/mandibuzz.gif" class="pixel pkm" aria-hidden="true" alt=" " />
             </p>
             <p>
-                <img src="assets/pg/home/gaypage.gif" class="pixel gp" aria-hidden="true" alt=" "  />
+                <img src="assets/pg/home/gaypage.gif" class="pixel gp" aria-hidden="true" alt=" " />
             </p>
             <br>
         </footer>
     </div>
-    <script>
+    <script defer>
         window.addEventListener("DOMContentLoaded", function () {
             const imageArrayOne = [
                 'assets/pg/home/bobby.png',
                 'assets/pg/home/wyatt.png',
-                'assets/pg/home/jin.png'              
+                'assets/pg/home/jin.png'
             ];
             const imageArrayTwo = [
                 'assets/pg/home/chester.png',
@@ -143,7 +232,7 @@
         }
         )
     </script>
-    <script>
+    <script defer>
         window.addEventListener('load', function () {
             const loadingScreen = document.getElementById('loading');
             loadingScreen.classList.add('hide');
@@ -155,98 +244,6 @@
     <script src="scripts/alt-text.js" defer></script>
     <script src="scripts/tooltip.js" defer></script>
     <script src="scripts/updateAPI.js" defer></script>
-    <div style="
-        width: 40px;
-        height: 40px;
-        position: absolute;
-        bottom: 0px;
-        right: 0px;
-        z-index: 100;
-      ">
-        <div id="winamp-container"></div>
-        <script>
-            const Winamp = window.Webamp;
-            const webamp = new Webamp({
-                initialTracks: [
-                    {
-                        metaData: {
-                            artist: "Mayhem",
-                            title: "Browny WAS Dead",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/Mayhem%20-%20Rider%20Super-1%20-%2002%20Browny%20WAS%20Dead.mp3",
-                    },
-                    {
-                        metaData: {
-                            artist: "Mayhem",
-                            title: "Eggs",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/Mayhem%20-%20Eggs%20And%20Other%20Songs%20-%2001%20Eggs.mp3",
-                    },
-                    {
-                        metaData: {
-                            artist: "Renard",
-                            title: "Go to the Party!",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/Renard%20-%20BEST%20OF%20LAPFOX%20VOL%201-%20Because%20Maybe!%20-%2001%20Go%20To%20The%20Party.mp3",
-                    },
-                    {
-                        metaData: {
-                            artist: "Renard",
-                            title: "Banned Forever",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/Renard%20-%20BEST%20OF%20LAPFOX%20VOL%201-%20Because%20Maybe!%20-%2006%20Banned%20Forever.mp3",
-                    },
-                    {
-                        metaData: {
-                            artist: "Mayhem",
-                            title: "Doctor Rocker",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/Mayhem%20-%20Eggs%20And%20Other%20Songs%20-%2002%20Doctor%20Rocker.mp3",
-                    },
-                    {
-                        metaData: {
-                            artist: "Negaren ft. TQBF",
-                            title: "Shut Down Everything (Negaren Remix)",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/The%20Quick%20Brown%20Fox%20-%20SPEEDKORE%204%20KIDZ!%20-%2011%20Shut%20Down%20Everything%20(Negaren%20Remix).mp3",
-                    },
-                    {
-                        metaData: {
-                            artist: "Renard",
-                            title: "I'm a Blind Cave Salamander",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/Renard%20-%20BEST%20OF%20LAPFOX%20VOL%201-%20Because%20Maybe!%20-%2003%20I'm%20a%20Blind%20Cave%20Salamander.mp3",
-                    },
-                    {
-                        metaData: {
-                            artist: "Adraen",
-                            title: "Bad Man and / or Rude Boy",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/Adraen%20-%20Grey%20Goo%20Scenario%20-%2002%20Bad%20Man%20And%20-%20Or%20Rude%20Boy.mp3",
-                    },
-
-                    {
-                        metaData: {
-                            artist: "BANDETTO",
-                            title: "Barf City",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/BANDETTO%20-%20-.WAV%20SLAVE%20-%2004%20barf%20city.mp3",
-                    },
-                    {
-                        metaData: {
-                            artist: "Mayhem",
-                            title: "Do U Kno Tech Kno",
-                        },
-                        url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/home-winamp/Mayhem%20-%20Rider%20Super-1%20-%2003%20Do%20U%20Kno%20Tech%20Kno.mp3",
-                    }
-                ],
-                initialSkin: {
-                    url: "https://file.garden/aWxLNJylm2AE_Wn6/rei-yami/music/Sony_wx-5500mdx.wsz",
-                },
-            });
-            webamp.renderWhenReady(document.getElementById("winamp-container"));
-        </script>
-    </div>
 </body>
 
 </html>
