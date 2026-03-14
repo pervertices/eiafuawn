@@ -1,0 +1,142 @@
+body {
+  background-image:url(../assets/pg/abt/bg.png);
+}
+
+.container {
+  width:1200px;
+  margin:0;
+  display:grid;
+  grid-template-areas:
+  "aside main"
+  "section section"
+  "footer footer";
+  grid-template-columns: 300px;
+  background-image: linear-gradient(to bottom, rgb(0,0,0,0.2), rgb(0,0,0,0.5));
+  padding:10px;
+  outline:10px solid rgb(0,0,0,0.5);
+  margin-top:40px;
+  border-radius: 20px;
+
+}
+.container > * {
+  gap:5px;
+
+}
+
+.mp100 {
+  text-align: center;
+  width:100%;
+  color:black;
+  font-family:mp100-font;
+  font-weight: bold;
+  font-size:13px;
+}
+.mp100 div {
+  border:1px solid black;
+  outline:2px solid white;
+  outline-offset: -3px;
+  padding:10px;
+}
+.mp-header {
+  background-image:url(../assets/pg/abt/mp-icon.jpeg);
+  background-size:80%;
+  height:300px;
+  background-position: center;
+  background-color: black;
+  background-repeat: no-repeat;
+}
+.mp-content {
+  margin-top:10px;
+  background-image:url(../assets/pg/abt/mp-100-bg.png);
+  background-size:100%;
+  -webkit-text-stroke: 4px white;
+  background-position:bottom center;
+  background-repeat: no-repeat;
+  background-color:#fafafa;
+  list-style:none;
+}
+
+main {
+  display:grid;
+  grid-template-areas:
+  "header header"
+  "nav aside"
+  "article aside";
+  grid-template-columns: 600px auto;
+  grid-template-rows: 150px 25px;
+  padding:5px
+}
+
+main > * {
+  gap:5px;
+}
+
+header {
+  background-color:#41353f70;
+}
+
+nav {
+  display:flex;
+}
+nav a {
+  flex-grow:1;
+  gap:10px;
+  font-size:20px;
+  line-height:25px;
+  text-align: center;
+  text-decoration:none;
+  border-radius: 2px;
+}
+
+nav a:nth-child(1) {
+  background-color:#cd405a;
+  color:#241a70
+}
+nav a:nth-child(2) {
+  background-color:#f3ae53;
+  color:#992d80
+}
+nav a:nth-child(3) {
+  background-color:#7fc947;
+  color:#cd405a
+}
+nav a:nth-child(4) {
+  background-color:#4de9d4;
+  color:#4141a0
+}
+nav a:nth-child(5) {
+  background-color:#4940cd;
+  color:#f28bde
+}
+
+article {}
+
+.manifesto {
+  background-image:url(../assets/pg/abt/bg.png);
+  color:#f3ae53;
+  padding:5px;
+  height:400px;
+  overflow:auto;
+  font-size:18px;
+  text-shadow:0px 0px 3px black;
+}
+.manifesto p {
+  margin-bottom:10px;
+}
+
+.stampwall {
+  height:56px;
+  display:flex;
+  gap:3px;
+  width:100%;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scrollbar-width: none;
+}
+.stampwall::-webkit-scrollbar {
+  display: none;
+}
+.stampwall img {
+  height:56px;
+  width:99px;
+}

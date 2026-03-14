@@ -1,4 +1,7 @@
 /*Semantics*/
+:root {
+    --test:2px solid red
+}
 
 h1,h2,h3,h4,h5,h6,p,pre,code,blockquote,ul,ol,li,hr,body {
     margin: 0px;
@@ -39,6 +42,9 @@ aside {
 }
  footer {
     grid-area:footer
+}
+article {
+    grid-area:article
 }
 * {
     paint-order: stroke fill;
@@ -83,7 +89,6 @@ aside {
 /*font*/
 
 @font-face {
-    font-family:Impact;
-    src: url();
+  font-family:mp100-font;
+  src:url("../assets/font/whizbang-roman.ttf");
 }
-
